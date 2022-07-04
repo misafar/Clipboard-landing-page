@@ -1,0 +1,55 @@
+// special classes 
+
+.copyright {
+    margin: 0 auto;
+};
+
+.btn-spec{
+    box-shadow: $base-box-shadow;
+    max-width: 320px;
+    height: 55px;
+    font-weight: 600;
+}
+
+//text-align left
+
+@media screen and (min-width: 720px) {
+    .ta-l{
+        text-align: left;
+    }
+}
+
+//main image
+
+.image_main{
+    @include container();
+    max-width: 720px;
+    @include xl(){
+        margin-left: -50px;
+    }
+}
+
+.top-margin {
+    margin-top: $base-margin *4;
+    @include xl(){
+        margin-top: $base-margin *5;
+    }
+}
+
+.top-margin-2 {
+    margin-top: $base-margin *6;
+    @include xl(){
+        margin-top: $base-margin *8;
+    }
+}
+
+// footer
+
+footer {
+    background-color: #F5F6F8;
+}
+
+.footer_logo {
+    height: 55px;
+    width: 55px;
+}

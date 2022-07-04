@@ -1,0 +1,19 @@
+body {
+    background: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+background-size: contain;
+        @include md {
+            background: url(/images/bg-header-desktop.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+}
+
+// sprite images
+.sprite { background: url(/images/sprite.png) no-repeat top left;  } 
+.sprite.logo-google { background-position: 0 0; width: 165px; height: 49px; } 
+.sprite.logo-hp { background-position: -165px 0; width: 135px; height: 56px; } 
+.sprite.logo-ibm { background-position: -300px 0; width: 139px; height: 51px; } 
+.sprite.logo-microsoft { background-position: -439px 0; width: 161px; height: 35px; } 
+.sprite.logo-vector-graphics { background-position: -600px 0; width: 125px; height: 30px; } 

@@ -1,0 +1,21 @@
+// custom optimalization here
+
+// font family
+$font-family: Bai Jamjuree;
+
+// colors
+$primary: #26BAA4;
+$secondary: #6173FF;
+
+// shadow
+$base-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+
+// border radius
+$base-border-radius: 30px;
+
+
+// library
+@import "library";
+// specific rules for this project
+@import "background";
+@import "specific";
